@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="styles.css">
+		<title>JS12 - Gold Rush</title>
+		 <script type="text/javascript"
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyApHWrc2hC9QTA-kIJo7shB1jCvWHkxfq0">
+    </script>
+	</head>
+	<body>
+		<main>
+		<div class="parent">
+			<div class="marker"></div>
+			<!-- <img class="topo" src="map.jpg" height="60%" width="60%"> -->
+		</div>
+		<hr>
+		<h1> PART TWO: GOOGLE MAPS </h1>
+		 <input onclick="clearMarkers();" type=button value="Hide Markers">
+      <input onclick="showMarkers();" type=button value="Show All Markers">
+      <input onclick="deleteMarkers();" type=button value="Delete Markers">
+		<div id="map-canvas"></div>
+		</main>
+		
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<script type="text/javascript" src="main.js"></script>
+	</body>
+</html>
